@@ -1,4 +1,4 @@
 node_modules
 **/*.concat.*
-
+.idea/
 js/constants_local.js

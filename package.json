@@ -1,6 +1,9 @@
 {
   "name": "pttchrome",
   "version": "1.2.0",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-concat": "*",
@@ -8,5 +11,9 @@
     "grunt-contrib-jshint": "*",
     "grunt-contrib-nodeunit": "*",
     "grunt-contrib-uglify": "*"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "serve-static": "^1.12.3"
   }
 }
